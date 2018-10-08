@@ -1,0 +1,344 @@
+body{
+	font-family: 'Nanum Gothic';
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none; !important
+}
+
+
+.logo{
+	margin-left: 60px;	
+}
+
+.content{
+	margin-top: 50px;
+	margin-left: 160px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	width: 1242px;
+	height: 750px;
+	border: 1px solid grey;
+	border-radius: 5px;
+  	overflow : auto;
+ 	position: fixed;
+ 	font-style: normal;
+ 	font-size: 25px;
+ 	font-variant: small-caps;
+ 	font-color: black; 
+}
+
+.content #notice{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding: 10px 5px 5px 10px;
+	width: 93%;
+	height: 300px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.content #lately{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding: 10px 5px 5px 10px;
+	width: 93%;
+	height: 300px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.content #notice ul, .content #lately ul{
+	margin-top: 20px;
+}
+
+.content #lately ul li.lately, .content #notice ul li.notice{
+	display: inline-block;
+    width: 43%;
+    height: 200px;
+}
+
+.free_board, .music_board, .notice_board{
+	font-size: 18px;
+}
+.free_board ul, .music_board ul, notice_board ul{
+	list-style:disc;
+}
+
+.logo{
+	width: 100px;
+	height: 30px;
+}
+
+.navbar-collapse{
+	box-sizing: border-box;
+}
+
+.search{
+	margin-top: 10px;
+	width: 1100px;
+	box-sizing: border-box;
+}
+
+.search .form-control{
+	width: 600px;
+	margin-left: 400px;
+	position: relative;
+	left: 30px
+}
+.search .search-button{
+	width: 33px;
+	height: 33px;
+	border-radius: 3px;
+	margin-left: 4px;
+	position: relative;
+	left: 30px
+}
+
+nav{
+	height: 60px;	
+}
+
+/* login! */
+.login {
+	margin: auto;
+	margin-top: 250px;
+	width: 70%;
+	padding: 10px;
+}
+
+.login .jumbotron{
+	text-align: center;
+}
+
+.login .form-group{
+	margin-top: 30px;
+}
+
+.login .form-group .form-control{
+	width: 50%;
+	margin: auto;	
+}
+/*!
+ * bootstrap-vertical-tabs - v1.2.2
+ * https://dbtek.github.io/bootstrap-vertical-tabs
+ * 2016-12-02
+ * Copyright (c) 2016 ï§¦ê¿ºmail Demirbilek
+ * License: MIT
+ */
+
+ .col-xs-3{
+	 position: left;
+	 height: 850px;
+	 width:300px;
+	 padding-top: 300px;
+	 background-color: #f8f8f8;
+ }
+ .tabs-left, .tabs-right {
+	border-bottom: none;
+	padding-top: 2px;
+  }
+  .tabs-left {
+	border-right: 1px solid #ddd;
+  }
+  .tabs-right {
+	border-left: 1px solid #ddd;
+  }
+  .tabs-left>li, .tabs-right>li {
+	float: none;
+	margin-bottom: 2px;
+  }
+  .tabs-left>li {
+	margin-right: -1px;
+  }
+  .tabs-right>li {
+	margin-left: -1px;
+  }
+  .tabs-left>li.active>a,
+  .tabs-left>li.active>a:hover,
+  .tabs-left>li.active>a:focus {
+	border-bottom-color: #ddd;
+	border-right-color: transparent;
+  }
+  
+  .tabs-right>li.active>a,
+  .tabs-right>li.active>a:hover,
+  .tabs-right>li.active>a:focus {
+	border-bottom: 1px solid #ddd;
+	border-left-color: transparent;
+  }
+  .tabs-left>li>a {
+	border-radius: 4px 0 0 4px;
+	margin-right: 0;
+	display:block;
+  }
+  .tabs-right>li>a {
+	border-radius: 0 4px 4px 0;
+	margin-right: 0;
+  }
+  .sideways {
+	margin-top:50px;
+	border: none;
+	position: relative;
+  }
+  .sideways>li {
+	height: 20px;
+	width: 120px;
+	margin-bottom: 100px;
+  }
+  .sideways>li>a {
+	border-bottom: 1px solid #ddd;
+	border-right-color: transparent;
+	text-align: center;
+	border-radius: 4px 4px 0px 0px;
+  }
+  .sideways>li.active>a,
+  .sideways>li.active>a:hover,
+  .sideways>li.active>a:focus {
+	border-bottom-color: transparent;
+	border-right-color: #ddd;
+	border-left-color: #ddd;
+  }
+  .sideways.tabs-left {
+	left: -50px;
+  }
+  .sideways.tabs-right {
+	right: -50px;
+  }
+  .sideways.tabs-right>li {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+  }
+  .sideways.tabs-left>li {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+  }
+    table{
+   margin : auto; 
+  }
+  
+  tr{
+  	text-align : center;
+  }
+  
+  td{
+  	width : 270px;
+  	height : 40px;
+  }
+  
+  .content h2{
+  	margin : 30px;
+  }
+  .content p{
+  	font-size : 20px;
+  	font-weight : bold;
+  }
+  
+  .content img{
+  	width : 170px;
+  	height : 170px;
+  	object-fit : cover;
+  	border-radius : 50%;
+  	border : 0.5px solid black;
+  	background-repeat : no-repeat;
+  	border-shadow: 1px 3px 5px 4px;
+  }
+  
+  .content img:hover{
+  	background-color : white;
+  	opacity: 0.5;
+  }
+
+  table tr td.pn{
+  	width: 10%;
+  }
+  table tr td.title{
+  	width: 40%;
+  }
+  table tr td.name{
+  	width: 20%;
+  }
+  table tr td.uid{
+  	width: 15%;
+  }
+  table tr td.date{
+  	width: 15%
+  }
+  
+  ul .sidebar__sub{
+	display: none;
+	position: absolute;
+}
+
+.sidebar__sub  li{
+	padding: 10px 20px;
+	list-style-type : none;
+	display: block;
+}
+
+.sidebar__sub a{
+	display: block;
+}
+
+.sidebar__sub > li:hover{
+	background-color: #ece9e9;
+}
+
+.sidebar__sub__fixed  li{
+	padding: 10px 20px;
+	list-style-type : none;
+}
+
+.sidebar__sub__fixed > li:hover{
+	background-color: #ece9e9;
+}
+
+.sidebar__sub__fixed  li{
+	padding: 10px 20px;
+	list-style-type : none;
+	display: block;
+}
+
+.col-xs-3 ul li:hover ul{
+	display: block;
+}
+
+.myPage{
+	margin-top: 150px;
+	font-size: 17px;
+}
+
+#myPage__btn{
+	text-align: center;
+}
+
+.myPage table td{
+	width: 200px;
+}
+
+#myPage_ch_btn{
+	margin-right: 100px;
+}
+span.paging{
+	width: 500px;
+    text-align: center;
+    display: inherit;
+    margin: auto;
+}
+.row{
+ 	width: 1100px;
+ 	margin: auto;
+ 	margin-top:100px;
+}
+
+.tab-content .container{
+	height: 300px;
+}
